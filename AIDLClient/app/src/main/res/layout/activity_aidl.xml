@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".activity.MainActivity">
+
+    <Button
+        android:id="@+id/back_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/cardview_shadow_start_color"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:text="返回"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="AIDL Client"/>
+
+        <Button
+            android:id="@+id/bind_service_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/cardview_shadow_start_color"
+            android:textColor="@color/black"
+            android:layout_marginTop="30dp"
+            android:textSize="18sp"
+            android:text="bind_service"/>
+
+        <Button
+            android:id="@+id/send_msg_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/cardview_shadow_start_color"
+            android:textColor="@color/black"
+            android:layout_marginTop="30dp"
+            android:textSize="18sp"
+            android:text="send_message"/>
+
+        <Button
+            android:id="@+id/send_more_msg_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/cardview_shadow_start_color"
+            android:textColor="@color/black"
+            android:layout_marginTop="30dp"
+            android:textSize="18sp"
+            android:text="send_more_message"/>
+
+        <Button
+            android:id="@+id/send_return_msg_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/cardview_shadow_start_color"
+            android:textColor="@color/black"
+            android:layout_marginTop="30dp"
+            android:textSize="18sp"
+            android:text="send_return_message"/>
+
+        <Button
+            android:id="@+id/send_callback_msg_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/cardview_shadow_start_color"
+            android:textColor="@color/black"
+            android:layout_marginTop="30dp"
+            android:textSize="18sp"
+            android:text="send_callback_message"/>
+
+        <Button
+            android:id="@+id/unbind_service_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/cardview_shadow_start_color"
+            android:textColor="@color/black"
+            android:layout_marginTop="30dp"
+            android:textSize="18sp"
+            android:text="unbind_service"/>
+
+        <Button
+            android:id="@+id/test_block_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/cardview_shadow_start_color"
+            android:textColor="@color/black"
+            android:layout_marginTop="50dp"
+            android:textSize="15sp"
+            android:text="test_block"/>
+    </LinearLayout>
+</FrameLayout>
