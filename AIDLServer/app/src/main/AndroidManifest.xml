@@ -53,6 +53,17 @@
             </intent-filter>
 
         </service>
+
+        <service
+            android:name=".service.AIDLConnectPool.AIDLConnectPoolService"
+            android:enabled="true"
+            android:exported="true" >
+
+            <intent-filter>
+                <action android:name="com.jieluote.aidlserver.service.AIDLConnectPool.AIDLConnectPoolService"/>
+            </intent-filter>
+
+        </service>
     </application>
 
 </manifest>

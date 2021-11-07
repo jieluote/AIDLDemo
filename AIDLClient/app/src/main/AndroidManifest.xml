@@ -19,6 +19,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".activity.AIDLActivity" />
+        <activity android:name=".activity.AIDLConnectPoolActivity" />
         <activity android:name=".activity.ServiceActivity" />
         <activity android:name=".activity.MessengerActivity" />
 
